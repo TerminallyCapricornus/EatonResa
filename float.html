@@ -1,0 +1,70 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>lfloat demo</title>
+<style>
+    body{
+        background: rgb(0, 255, 0);
+        color: rgb(255, 255, 0);
+    }
+
+    P{
+        color: rgb(255, 0, 0);
+    }
+
+    .woah{ color: blue;}
+
+    #huh {
+        color: rgb(255, 255, 255);}
+
+    a{
+        color: blueviolet;
+        font-weight: 999;
+        text-decoration:none;
+        font-variant: small-caps;
+        display: block;
+        border: 10px solid purple;
+    }
+
+    a:hover{
+        color:rgb(255, 255, 255);
+        font-weight: 900;
+        font-variant: normal;
+    }
+    .right {
+        float: right;
+        margin-left: 50px;
+    }
+    .right::after{
+        content: "";
+        clear:both;
+        display: table;
+    }
+    .left{
+        float: left;
+        margin-right: 50px;
+    }
+    .left::after {
+        content: "";
+        clear:both;
+        display: table;
+    }
+
+</style>
+</head>
+            
+<body>
+<img class="right" src="pineapple.jpg" alt="spunchbob house" />
+<p> woah thats a cool pineappleisnt it. woah. aweomse.</p>
+<p> oh my lord im so bad at spelling please god save me and all the forsaken fans who types so quickly it looks like gibberish</p>
+<p> ever heard of forsaken? pretty cool imo. I like it. its aweomse. i like shedletsky. also dusekkar. i like silly pumpkin who only soeaks in rhymes. god im so bad at spellinf.</p>
+<img class="left" src="pineapple.jpg" alt="spunchbob house" />
+<p> woah thats a cool pineappleisnt it. woah. aweomse.</p>
+<p> oh my lord im so bad at spelling please god save me and all the forsaken fans who types so quickly it looks like gibberish</p>
+<p> ever heard of forsaken? pretty cool imo. I like it. its aweomse. i like shedletsky. also dusekkar. i like silly pumpkin who only soeaks in rhymes. god im so bad at spellinf.</p>
+</body>
+
+</html>
