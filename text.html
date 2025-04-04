@@ -1,61 +1,118 @@
 <!doctype html>
-            
+
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>Cheat sheet</title>
+    <meta charset="utf-8">
+    <title>flexbox demo</title>
+    <style>
+        body {
+            background-color: #ff0000;
+            color: #3c00ff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            max-width: 80%;
+            margin: 0 auto;
+        }
 
-<style>
-    body{
-        background: rgb(0, 255, 0);
-        color: rgb(255, 255, 0);
-    }
+        #one {
+            background-color: #e3b9ee;
+            border: 2px solid #444;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            /*flex-direction: row;/*
+           /* justify-content: space-around;*/
+            /*align-items: stretch;*/
+        }
 
-    P{
-        color: rgb(255, 0, 0);
-    }
-            </style>
+        #one div {
+            text-align: center;
+            background-color: #f1efc1;
+            border: 2px solid #4444;
+            border-radius: 10px;
+            /*flex-grow: 1;*/
+        }
+
+        #two {
+            background-color: #e3b9ee;
+            border: 2px solid #444;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            /*flex-direction: row;/*
+           /* justify-content: space-around;*/
+            /*align-items: stretch;*/
+        }
+
+        #two div {
+            text-align: center;
+            background-color: #f1efc1;
+            border: 2px solid #4444;
+            border-radius: 10px;
+            /*flex-grow: 1;*/
+        }
+
+        #three {
+            background-color: #e3b9ee;
+            border: 2px solid #444;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            /*flex-direction: row;/*
+           /* justify-content: space-around;*/
+            /*align-items: stretch;*/
+        }
+
+        #three div {
+            text-align: center;
+            background-color: #f1efc1;
+            border: 2px solid #4444;
+            border-radius: 10px;
+            /*flex-grow: 1;*/
+        }
+    </style>
 </head>
-            
+
 <body>
-<h1>TITLE</h1>
-<h2>Subtitle</h2>
-<h3> even smaller subtitle</h3>
-<p>woah</p>
-<blockquote>woahhhh blockquote</blockquote>
-<code>this is codeeee.</code>
+    <h2>flexbox demo setup</h2>
+    <div id="one">
+        <div>
+            <p>one</p>
+        </div>
+        <div>
+            <p>two</p>
+        </div>
+        <div>
+            <p>three<br>has more text</p>
+        </div>
+    </div>
 
-<h2>LIST</h2>
-<ol>
-    <li>ITEM</li>
-    <LI>ITEM 2</LI>
-    <LI> YEA YEA</LI>
-</ol>
+    <div id="two">
+        <div>
+            <p>one</p>
+        </div>
+        <div>
+            <p>two</p>
+        </div>
+        <div>
+            <p>three<br>has more text</p>
+        </div>
+    </div>
 
-<ul>
-    <li>ITEM</li>
-    <LI>ITEM 2</LI>
-    <LI> YEA YEA</LI>
-</ul>
-
-<p> <b>GRAAAAA</b>
-    <strong> THIS IS SOOOO BAD!!</strong></p>
-    <p><i> wowieee ;P </i></p>
-    <p><em>this one looks a little weird</em></p>
-    <p><mark>HIGHLIGHTER ^-^</mark>
-    <small>Psst whisppers</small></p>
-    <p><del> - ctrl alt dededelete/ref </del></p>
-    <p><ins> underline! </ins></p>
-
-
-            <p>i hope your eyes hurt.</p>
-
-    <p><a href="index.html">LEAVE</a></p>
-
-    <!--maybe clean up and eventually put in other items-->
-    <sub>
-    <sup> 
+    <div id="three">
+        <div>
+            <p>one</p>
+        </div>
+        <div>
+            <p>two</p>
+        </div>
+        <div>
+            <p>three<br>has more text</p>
+        </div>
+    </div>
 </body>
 
 </html>
