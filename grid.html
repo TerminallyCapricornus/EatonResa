@@ -1,0 +1,48 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>GRID</title>
+
+<Style>
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Navigation Navigation Navigation Navigation Navigation"
+      "News Content Content Content Sigma"
+      "News Content Content Content Sigma"
+      "News Content Content Content Sigma"
+      "News Content Content Content Sigma";
+  }
+  
+  .Navigation { grid-area: Navigation;
+   background-color: black; color: aliceblue;}
+  
+  .News { grid-area: News; background-color: black; color: aliceblue; }
+  
+  .Content { grid-area: Content; background-color: black; color: aliceblue; }
+  
+  .Sigma { grid-area: Sigma; background-color: black; color: aliceblue; } 
+
+  </Style>
+
+</head>
+            
+<body>
+  <div class="container">
+    <div class="Navigation"></div>
+    <div class="News"></div>
+    <div class="Content"></div>
+    <div class="Sigma"></div>
+  </div>
+  <p> BOX WOAH</p>
+  <div class="Navigation"> <p>hey weiner </p></div>
+</body>
+
+</html>
